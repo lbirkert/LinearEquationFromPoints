@@ -1,7 +1,7 @@
 # LinearEquationFromPoints
  
 This is a proof of concept demo for an algorithm which 
-converts an array of points >= 2 (`x`, `y) to a linear equation
+converts an array of points >= 2 (`x`, `y`) to a linear equation
 `y = x * m + c`.
 
 <br>

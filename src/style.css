@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Unbounded:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#graph {
+  max-width: 500px;
+  max-height: 500px;
+  width: 100vw;
+  height: 100vw;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 20px;
+  gap: 10px 10px;
+}
+
+h1 {
+  font-family: 'Unbounded', cursive;
+  padding: 20px 20px;
+}
+
+svg {
+  margin: 10px 0;
+}
+
+#equation {
+  margin-top: 15px;
+  padding: 5px 15px;
+  background-color: #151515;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+#equation span {
+  color: orange;
+}
+
+input,
+button {
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background-color: transparent;
+  color: white;
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+button,
+input[type='submit'] {
+  background-color: rgb(21, 0, 41);
+  cursor: pointer;
+}
+
+button:hover,
+input[type='submit']:hover {
+  background-color: rgb(44, 0, 85);
+}

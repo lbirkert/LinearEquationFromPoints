@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linear equation from Points</title>
+  </head>
+  <body>
+    <h1>Linear equation from Points</h1>
+    <header>
+      <form id="add">
+        <input type="text" placeholder="x;y" />
+        <input type="submit" value="Add Point" />
+      </form>
+      <button id="clear">Clear</button>
+      <button id="random">Random</button>
+    </header>
+    <svg id="graph" viewBox="0 0 20 20">
+      <g id="points"></g>
+      <line
+        id="line"
+        x1="0"
+        y1="0"
+        x2="20"
+        y2="20"
+        stroke="purple"
+        stroke-width="0.2"
+      />
+    </svg>
+    <p id="equation">
+      y = x * <span id="equation-m">m</span> + <span id="equation-c">c</span>
+    </p>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

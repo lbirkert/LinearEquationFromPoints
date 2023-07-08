@@ -11,7 +11,7 @@ We firstly calculate the slope of each point to its left neighbour
 to construct the `c` for each point. (`c = y - m * x`)
 
 We can now take the average value of both and we will
-get a linear equation which is as near as possible (in theorie)
+get a linear equation which is in theory as close as possible
 to all of the points in the list.
 
 <br>

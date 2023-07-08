@@ -16,4 +16,4 @@ to all of the points in the list.
 
 <br>
 
-[Demo here](https://kotw.dev/LinearEquationFromPoints)
+[Demo here](https://lbirkert.com/LinearEquationFromPoints)
